@@ -3,7 +3,7 @@
 1) First, the SNND.cpp has to be run on the dataset to create the algorithm components involving
 KNN list, data_matrix(base dataset), similarity matrix, core and non-core points, clusters.
 
-2)BISD.cpp is performed for adding points in batches. The input to this code is the base data set and an added dataset.
+2)BISD_add.cpp is performed for adding points in batches. The input to this code is the base data set and an added dataset.
 The added dataset set is a fragment of overall dataset. The base dataset is obtained by running the SNND.cpp in step 1. 
 The incoming batches has to be done by creating sperate data files eg:file1, file2, file3 and so on.
 
