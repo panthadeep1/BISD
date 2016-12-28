@@ -1,0 +1,30 @@
+#Following points demonstrate the experimental details of the project
+
+1) First, the SNND.cpp has to be run on the dataset to create the algorithm components involving
+KNN list, data_matrix(base dataset), similarity matrix, core and non-core points, clusters.
+
+2)BISD.cpp is performed for adding points in batches. The input to this code is the base data set and an added datasset.
+The added dataset set is a fragment overall dataset. The base dataset is obtained by running the SNND.cpp in step 1. 
+The incoming batches has to be done by creating sperate data files eg:file1, file2, file3 and so on.
+
+3)BISD_del.cpp is performed for the deletion purpose. Prior to runnung BISD_del.cpp, SNND.cpp has to be run. Similar to BISD.cpp, points are deleted in batches eg:file1, file2, file3 and so on.
+
+4)INSD_add.cpp is performed for adding points one at a time. Eg: If a batch of points in file1 is input to the code, then INSD.cpp processes the 
+batch one point at a time.
+
+5)NSD_add.cpp is performed for deleting points one at a time.
+
+6)Convert all the input files file1,file2, KNN list, similarity matrix, data matrix(base dtaset) to binary file.
+
+7)pre_proc_data.cpp converts a text file to binary file.
+
+
+In experiments follwing naming is used:
+SNND.cpp = test_snn_ni.cpp
+BISD_add.cpp = batch3.cpp
+BISD_del.cpp = batch3_del.cpp
+INSD_add.cpp = point3_t1t2.cpp
+INSD_del.cpp = point3_del2.cpp
+
+Also including a sample experiment for Mopsi2012 dataset for further look up.
+For any clarification please do contact:panthadeep.edu@gmail.com.
