@@ -16,7 +16,7 @@ batch one point at a time.
 
 6)Convert all the input files file1,file2, KNN list, similarity matrix, data matrix(base dtaset) to binary file.
 
-7)pre_proc_data.cpp converts a text file to binary file.
+7)pre_proc_data.cpp converts a text file to binary file for faster I/O. The input file in binary format is fed to the program.
 
 
 In experiments following naming is used:
