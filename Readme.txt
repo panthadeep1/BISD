@@ -19,7 +19,7 @@ batch one point at a time.
 7)pre_proc_data.cpp converts a text file to binary file.
 
 
-In experiments follwing naming is used:
+In experiments following naming is used:
 SNND.cpp = test_snn_ni.cpp
 BISD_add.cpp = batch3.cpp
 BISD_del.cpp = batch3_del.cpp
