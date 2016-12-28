@@ -26,5 +26,5 @@ BISD_del.cpp = batch3_del.cpp
 INSD_add.cpp = point3_t1t2.cpp
 INSD_del.cpp = point3_del2.cpp
 
-Also including a sample experiment for Mopsi2012 dataset for further look up.
+
 For any clarification please do contact:panthadeep.edu@gmail.com.
