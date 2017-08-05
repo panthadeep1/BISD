@@ -18,5 +18,5 @@ batch one point at a time.
 
 7)pre_proc_data.cpp converts a text file to binary file for faster I/O. The input file in binary format is fed to the program.
 
-
+Video link for SNND code: https://www.youtube.com/watch?v=Xi7a_eBDXT8&feature=youtu.be
 For any clarification please do contact:panthadeep.edu@gmail.com.
